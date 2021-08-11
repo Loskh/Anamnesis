@@ -27,7 +27,7 @@ namespace Anamnesis.GameData.Sheets
 		{
 			this.lumina = lumina;
 
-			ExcelSheet<TConcreteType>? sheet = lumina.GetExcelSheet<TConcreteType>();
+			ExcelSheet<TConcreteType>? sheet = lumina.GetExcelSheet<TConcreteType>(Lumina.Data.Language.ChineseSimplified);
 
 			if (sheet == null)
 				throw new Exception($"Failed to read lumina excel sheet: {typeof(TConcreteType)}");
