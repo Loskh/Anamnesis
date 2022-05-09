@@ -12,7 +12,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("Ornament", 0x72256cce)]
+[Sheet("Ornament", 0x6768819a)]
 public class Ornament : ExcelRow, INpcBase
 {
 	private string? name;

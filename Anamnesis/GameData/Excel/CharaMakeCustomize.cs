@@ -8,7 +8,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("CharaMakeCustomize", 0xc30e9b73)]
+[Sheet("CharaMakeCustomize", 0x2ba6bf0f)]
 public class CharaMakeCustomize : ExcelRow
 {
 	public string Name { get; set; } = string.Empty;
