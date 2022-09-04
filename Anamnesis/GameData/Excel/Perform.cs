@@ -11,7 +11,7 @@ using Lumina.Text;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("Perform", 0x7bf81fa9)]
+[Sheet("Perform")]
 public class Perform : ExcelRow, IItem
 {
 	public string Name { get; private set; } = string.Empty;

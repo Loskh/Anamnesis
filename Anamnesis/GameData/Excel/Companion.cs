@@ -11,7 +11,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("Companion", 0x776048c3)]
+[Sheet("Companion")]
 public class Companion : ExcelRow, INpcBase
 {
 	private string? name;

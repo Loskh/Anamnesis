@@ -11,7 +11,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("ENpcResident", 0xf74fa88c)]
+[Sheet("ENpcResident")]
 public class ResidentNpc : ExcelRow, INpcBase
 {
 	private string? name;

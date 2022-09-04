@@ -10,7 +10,7 @@ using XivToolsWpf.Selectors;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("BNpcName", 0x77a72da0)]
+[Sheet("BNpcName")]
 public class BattleNpcName : ExcelRow, ISelectable
 {
 	public string Name { get; private set; } = string.Empty;

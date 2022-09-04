@@ -7,7 +7,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("MountCustomize", 0x859ade0f)]
+[Sheet("MountCustomize")]
 public class MountCustomize : ExcelRow
 {
 	public ushort HyurMidlanderMaleScale { get; set; }

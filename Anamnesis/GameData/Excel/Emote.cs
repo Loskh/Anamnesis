@@ -10,7 +10,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("Emote", 0xf3afded2)]
+[Sheet("Emote")]
 public class Emote : ExcelRow
 {
 	public string? DisplayName { get; private set; }

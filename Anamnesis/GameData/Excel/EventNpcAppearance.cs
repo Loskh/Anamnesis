@@ -10,7 +10,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("ENpcBase", 0x927347d8)]
+[Sheet("ENpcBase")]
 public class EventNpcAppearance : ExcelRow, INpcAppearance
 {
 	public uint ModelCharaRow { get; private set; }

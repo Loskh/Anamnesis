@@ -12,7 +12,7 @@ using Lumina.Excel;
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 using LuminaData = Lumina.GameData;
 
-[Sheet("CharaMakeType", columnHash: 0x80d7db6d)]
+[Sheet("CharaMakeType")]
 public class CharaMakeType : ExcelRow
 {
 	public string Name => this.RowId.ToString();

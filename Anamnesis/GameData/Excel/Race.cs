@@ -12,7 +12,7 @@ using Lumina.Text;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("Race", 0x3403807a)]
+[Sheet("Race")]
 public class Race : ExcelRow
 {
 	public string Name => this.CustomizeRace.ToString();

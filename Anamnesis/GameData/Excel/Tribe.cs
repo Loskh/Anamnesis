@@ -10,7 +10,7 @@ using Lumina.Text;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("Tribe", 0xe74759fb)]
+[Sheet("Tribe")]
 public class Tribe : ExcelRow
 {
 	public string Name => this.CustomizeTribe.ToString();

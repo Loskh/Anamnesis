@@ -12,7 +12,7 @@ using Lumina.Text;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("BuddyEquip", columnHash: 0xb429792a)]
+[Sheet("BuddyEquip")]
 public class BuddyEquip : ExcelRow
 {
 	public BuddyItem? Head { get; private set; }

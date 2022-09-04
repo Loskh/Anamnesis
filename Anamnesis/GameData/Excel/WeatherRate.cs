@@ -8,7 +8,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("WeatherRate", 0x474abce2)]
+[Sheet("WeatherRate")]
 public class WeatherRate : ExcelRow
 {
 	public UnkStruct0Struct[]? UnkStruct0 { get; private set; }

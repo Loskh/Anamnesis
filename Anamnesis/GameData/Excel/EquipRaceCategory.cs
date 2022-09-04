@@ -9,7 +9,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("EquipRaceCategory", 0xf914b198)]
+[Sheet("EquipRaceCategory")]
 public class EquipRaceCategory : ExcelRow
 {
 	public bool Hyur { get; private set; }

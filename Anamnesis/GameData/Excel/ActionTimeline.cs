@@ -11,7 +11,7 @@ using Lumina.Excel;
 
 using ExcelRow = Anamnesis.GameData.Sheets.ExcelRow;
 
-[Sheet("ActionTimeline", 0x3ae4a5a0)]
+[Sheet("ActionTimeline")]
 public class ActionTimeline : ExcelRow, IAnimation
 {
 	public ushort AnimationId => (ushort)this.RowId;
